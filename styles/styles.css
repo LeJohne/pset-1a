@@ -126,6 +126,16 @@ footer {
   background-size: cover;
 }
 
+@@font-face {
+  font-family: "homemade apple";
+  src: url(https://fonts.google.com/specimen/Homemade+Apple) format("cursive");
+}
+
+#title h1{
+  font-family: "homemade apple"
+}
+
+
 .box mark {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;

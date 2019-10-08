@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   background: #CCC;
 }
 
@@ -58,7 +58,7 @@ footer {
   color: grey
 }
 
-.foot p{
+.foot p {
   color: #fff;
 }
 
@@ -126,15 +126,28 @@ footer {
   background-size: cover;
 }
 
-@@font-face {
-  font-family: "homemade apple";
-  src: url(https://fonts.google.com/specimen/Homemade+Apple) format("cursive");
+#title mark {
+  font-size: 48px;
+  padding: 5px;
 }
 
-#title h1{
-  font-family: "homemade apple"
+#check {
+  background-color: rgba(0, 0, 0, 1);
+  width: 500px;
+  color: white;
+  padding: 1;
 }
 
+a[href="https://www.youtube.com/channel/UCN6IefCvGtFLKLXTYAGl_zQ/videos?view_as=subscriber"] {
+  color: white;
+  text-decoration: none;
+}
+
+#warning {
+  width: auto;
+  text-align: center;
+  font-style: oblique;
+}
 
 .box mark {
   background-color: rgba(0, 0, 0, 0.6);
@@ -152,7 +165,7 @@ footer {
   background-size: cover;
 }
 
-.equipment hr{
+.equipment hr {
   border: 0;
   width: 40%;
   height: 1px;

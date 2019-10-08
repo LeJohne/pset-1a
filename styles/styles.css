@@ -172,3 +172,9 @@ a[href="https://www.youtube.com/channel/UCN6IefCvGtFLKLXTYAGl_zQ/videos?view_as=
   background: #333;
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
+
+.center>li {
+  font-style: oblique;
+  font-size: 20px;
+  padding: 3px;
+}
